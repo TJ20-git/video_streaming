@@ -28,7 +28,7 @@ Pasos
    cd C:\...\DESKTOP\onAir <br>
    npm run dev 
 9. Abrir algun navegador y colocar <br>
-   http://localhost:8000
+   http://localhost:3000
    
   
   
