@@ -8,13 +8,13 @@ Pasos
    C:\NGINX
 3. Copiar la carpeta onAir al escritorio <br>
    C:\...\DESKTOP\onAir
-4. Abrir un terminal y colocar los siguientes comandos para activar el servidor rtmp
+4. Abrir un terminal y colocar los siguientes comandos para activar el servidor rtmp <br>
    cd C:\nginx
    nginx.exe
-   - Para finalizar el servidor rtmp abrir otro terminal y colocar
+   - Para finalizar el servidor rtmp abrir otro terminal y colocar <br>
       cd C:\nginx
       nginx -s stop
-5. Abrir otro terminal y colocar los siguientes comandos para transmitir el video almacenado
+5. Abrir otro terminal y colocar los siguientes comandos para transmitir el video almacenado <br>
    cd C:\ffmpeg
    ffmpeg -re -i android.mp4 -c:v libx264 -loop -2 -b:a 160k -ar 44100 -strict -4 -f flv rtmp://192.168.1.19:1935/livestream
    - Para transmitir el video de la camara ejecutar el siguiente comando
