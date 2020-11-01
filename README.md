@@ -3,8 +3,18 @@ Transmisión de video en tiempo real sobre un servidor http. Con FFMPEG, NGINX y
 
 Pasos
 1. Copiar la carpeta FFMPEG al disco local C
-  C:/FFMPEG
-  
+   C:\FFMPEG
+2. Copiar la carpeta NGINX al disco local C
+   C:\NGINX
+3. Copiar la carpeta CCTV al escritorio
+   C:\...\DESKTOP\CCTV
+4. Abrir terminal y ejecutar siguiente comando
+   cd C:\...\DESKTOP\CCTV
+5. Ejecutar comando desde la terminal
+   npm run dev 
+6. Abrir algun navegador y colocar
+   http://localhost:8000
+   
   
   
   
