@@ -2,7 +2,7 @@
 Transmisión de video en tiempo real sobre un servidor http. Con FFMPEG, NGINX y HTTPS.
 
 Pasos
-1. Copiar la carpeta FFMPEG al disco local C </n>
+1. Copiar la carpeta FFMPEG al disco local C </n> <br>
    C:\FFMPEG
 2. Copiar la carpeta NGINX al disco local C
    C:\NGINX
